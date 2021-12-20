@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Seu Personagem</title>
+    <link rel="icon" href="./assets/icone.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/reset.css">
+</head>
+<body>
+    <header class='banner'>
+        <a href="index.html" class="link">
+            <img src="./assets/logo.jpeg" alt="Logo HonorBound" title="Honor Bound" class="logo">
+        </a>
+    </header>
+    <main class="caixaCentral">
+        <form class="cadastroQuadro">
+            <h1 class="cadastre-se login">Bem-vindo!</h1>
+            <div class="login">
+                <label class="labels" for="login">Seu login:</label>
+                <input class="input input_login" name="login" type="text">
+            </div>
+            <div class="senha">
+                <label class="labels" for="senha">Sua senha:</label>
+                <input class="input input_senha" type="password" name="senha">
+            </div>
+            <span class="labels semConta">Não tem conta? <a class="cliqueAqui" href="./cadastro.html">Clique aqui</a></span>
+            <ul class="listaFantasma"></ul>
+            <input type="submit" class="criarConta botaoSubmit" value="Login">
+        </form>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+<script src="js/models/home.js" type="module"></script>
+</html>
