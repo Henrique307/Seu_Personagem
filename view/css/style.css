@@ -5,17 +5,11 @@ body {
 }
 
 .link {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  width: 100%;
+  margin: 5px 0 5px 20px;
 }
 
 .logo {
-  width: 28%;
+  max-width: 150px;
 }
 
 .banner {
@@ -27,9 +21,50 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   background-color: #121011;
   margin: 0.5rem auto;
   border-radius: 20px;
+}
+
+.banner_home {
+  width: 95%;
+  border: double 1rem #BF5B04;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #121011;
+  margin: 0.5rem auto;
+  border-radius: 20px;
+}
+
+.perfil {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.perfil h1 {
+  color: #fff;
+  margin-right: 10px;
+}
+
+.foto_de_perfil {
+  border-radius: 50%;
+  margin: 5px 20px 5px 0;
+  width: 60px;
+  height: 60px;
 }
 
 .caixaCentral {
@@ -113,6 +148,7 @@ body {
   display: none;
   position: absolute;
   top: 0;
+  left: 0;
 }
 
 .rd_tab:checked ~ .tab-content {
@@ -139,6 +175,15 @@ body {
 
 .seusPersonagens tr:nth-child(even) {
   background-color: #181729;
+}
+
+.novoPersonagem {
+  padding: 15px;
+}
+
+.inputsNP {
+  padding: 5px 8px;
+  border-radius: 10px;
 }
 
 /*

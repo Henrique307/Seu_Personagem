@@ -9,13 +9,11 @@ body{
 }
 
 .link{
-    display: flex;
-    justify-content: center;
-    width: 100%;
+    margin: 5px 0 5px 20px;
 }
 
 .logo{
-    width: 28%;
+    max-width: 150px;
 }
 
 .banner{
@@ -23,9 +21,38 @@ body{
     border:double 1rem $borda;
     display: flex;
     justify-content: center;
+    align-items: center;
     background-color: $fundo_componentes;
     margin: 0.5rem auto;
     border-radius: 20px;
+}
+
+.banner_home{
+    width: 95%;
+    border:double 1rem $borda;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $fundo_componentes;
+    margin: 0.5rem auto;
+    border-radius: 20px;
+}
+
+.perfil{
+    display: flex;
+    align-items: center;
+}
+
+.perfil h1{
+    color: $letras;
+    margin-right: 10px;
+}
+
+.foto_de_perfil{
+    border-radius: 50%;
+    margin: 5px 20px 5px 0;
+    width: 60px;
+    height: 60px;
 }
 
 .caixaCentral{
@@ -66,7 +93,7 @@ body{
     float: left;
 }
 
-// AQUI EU TENTEI E FALHEI MISERAVELMENTE EM FAZER ISSO  ->  https://www.youtube.com/watch?v=FV4MlZPZ2SE
+// AQUI EU TENTEI E FALHEI MISERAVELMENTE EM FAZER ISSO  ->  https://www.youtube.com/watch?v=FV4MlZPZ2SE VE SE CE CONSEGUE
 
 .tab_label{
     display: block;
@@ -116,6 +143,7 @@ body{
     display: none;
     position: absolute;
     top: 0;
+    left: 0;
 }
 
 .rd_tab:checked ~ .tab-content{
@@ -123,6 +151,8 @@ body{
 }
 
 // PARTE DAS TABS
+
+//SEUS PERSONAGENS
 .seusPersonagens{
     padding: 15px 0;
     width: 100%;
@@ -144,6 +174,21 @@ body{
 .seusPersonagens tr:nth-child(even) {
     background-color: #181729;
 }
+//FIM SEUS PERSONAGENS
+
+//NOVO PERSONAGEM
+
+.novoPersonagem{
+    padding: 15px;
+}
+
+.inputsNP{
+    padding: 5px 8px;
+    border-radius: 10px;
+}
+
+
+//FIM NOVO PERSONAGEM
 
 // FIM PARTE DAS TABS
 

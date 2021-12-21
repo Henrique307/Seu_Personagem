@@ -1,4 +1,4 @@
-import { contas } from '../controllers/contas.js'
+import { contas } from './contas.js'
 
 export function novaMensagem(mensagem){
     let divFantasma = document.querySelector('.listaFantasma')
@@ -7,6 +7,7 @@ export function novaMensagem(mensagem){
     li.textContent = mensagem
     divFantasma.appendChild(li)
 }
+
 export function verificador(login,senha,confirmaSenha){
 
     let arrayDeErros = []
@@ -43,10 +44,4 @@ export function escritorDeErros(arrayDeErros){
         li.textContent = erro
         divFantasma.appendChild(li)
     })
-}
-
-export function mostraPagina(pagina){
-    let paginas = document.querySelector('.botoesTeste')
-    paginas.querySelectorAll.classList.add('condeu')
-    paginas.querySelector(pagina).classList.remove('condeu')
 }

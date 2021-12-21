@@ -1,5 +1,5 @@
-import { escritorDeErros, novaMensagem, verificador } from '../helpers/functions.js';
-import { Conta , contas } from '../controllers/contas.js'
+import { escritorDeErros, novaMensagem, verificador } from './functions.js';
+import { Conta , contas } from './contas.js'
 
 const botao = document.querySelector('.criarConta')
 // const revelaSenha = document.querySelector('revelaSenha')

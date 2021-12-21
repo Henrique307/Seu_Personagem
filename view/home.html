@@ -8,16 +8,20 @@
     <link rel="stylesheet" href="./css/reset.css">
 </head>
 <body>
-    <header class='banner'>
+    <header class='banner_home'>
       <a href="index.html" class="link">
         <img src="./assets/logo.jpeg" alt="Logo HonorBound" title="Honor Bound" class="logo">
       </a>
+      <div class="perfil">
+        <h1>Nome do usuário</h1>
+        <img src="./assets/defaultPicture.jpg" alt="Sua foto" class="foto_de_perfil">
+      </div>
     </header>
     <main class="caixaCentral">
       <nav class="nav_tabs">
         <ul>
           <li>
-            <input type="radio" id="tab1" class="rd_tab" name="tabs" checked>
+            <input type="radio" id="tab1" class="rd_tab" name="tabs">
             <label for="tab1" class="tab_label">Seus Personagens</label>
             <div class="tab-content">
               <section class="seusPersonagens">
@@ -51,11 +55,14 @@
             </div>
           </li>
           <li>
-            <input type="radio" name="tabs" class="rd_tab" id="tab2">
+            <input type="radio" name="tabs" class="rd_tab" id="tab2" checked>
             <label for="tab2" class="tab_label">Novo Personagem</label>
             <div class="tab-content">
               <section class="novoPersonagem">
-              
+                <input type="text" class="inputsNP nome_do_Personagem" placeholder="Nome">
+                <input type="text" class="inputsNP nome_do_Personagem" placeholder="Classe">
+                <input type="text" class="inputsNP nome_do_Personagem" placeholder="Nível">
+                <input type="text" class="inputsNP raca_do_personagem" placeholder="Raça">
               </section>
             </div>
           </li>
@@ -70,29 +77,10 @@
           </li>
         </ul>
       </nav>
-        <!-- <nav class="nav_tabs" >
-            <ul>
-                <li>
-                  <input type="radio" name='tabs' class='rd_tabs' id='tab1' checked>
-                  <label for="tab1">Tab 1</label>
-                  <div class="conteudo">aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</div>
-                </li>
-                <li>
-                  <input type="radio" name='tabs' class='rd_tabs' id='tab2'>
-                  <label for="tab2">Tab 2</label>
-                  <div class="conteudo">aaaaaaaaaaaaaaaaaaaaaaaa</div>
-                </li>
-                <li>
-                  <input type="radio" name='tabs' class='rd_tabs' id='tab3'>
-                  <label for="tab3">Tab 3</label>
-                  <div class="conteudo"></div>
-                </li>
-              </ul>
-        </nav> -->
     </main> 
     <footer>
 
     </footer>
-    <script src="./js/controllers/contas.js" type="module"></script>
+    <script src="../controller/contas.js" type="module"></script>
 </body>
 </html>

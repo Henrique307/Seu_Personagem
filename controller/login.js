@@ -1,5 +1,5 @@
-import { contas } from "../controllers/contas.js";
-import { novaMensagem } from "../helpers/functions.js";
+import { contas } from "./contas.js";
+import { novaMensagem } from "./functions.js";
 
 const botaoSubmit = document.querySelector('.botaoSubmit')
 

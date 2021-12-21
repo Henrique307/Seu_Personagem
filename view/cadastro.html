@@ -4,30 +4,30 @@
     <meta charset="UTF-8">
     <title>Seu Personagem</title>
     <link rel="icon" href="./assets/icone.png" type="image/x-icon">
-    <script src="./js/helpers/functions.js"></script>
+    <script src="../controller/functions.js"></script>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/reset.css">
 </head>
 <body>
     <header class='banner'>
-    <a href="index.html" class="link">
-        <img href='index.html' src="./assets/logo.jpeg" alt="Logo HonorBound" title="Honor Bound" class="logo">
-    </a>
+        <a href="index.html" class="link">
+            <img href='index.html' src="./assets/logo.jpeg" alt="Logo HonorBound" title="Honor Bound" class="logo">
+        </a>
     </header>
     <main class="caixaCentral">
         <form class="cadastroQuadro">
             <h1 class="cadastre-se">Cadastre-se!</h1>
             <div class="login">
                 <label class="labels" for="login">Seu login:</label>
-                <input class="input input_login" value="blablablateste" name="login" type="text" autofocus>
+                <input class="input input_login" value="" name="login" type="text" autofocus>
             </div>
             <div class="senha">
                 <label class="labels" for="senha">Sua senha:</label>
-                <input class="input input_senha" value="senhateste123" type="password" name="senha">
+                <input class="input input_senha" value="" type="password" name="senha">
             </div>
             <div class="confirmaSenha">
                 <label class="labels" for="senha">Confirme sua senha:</label>
-                <input class="input input_confirmaSenha" value="senhateste123" type="password" name="senha">
+                <input class="input input_confirmaSenha" value="" type="password" name="senha">
             </div>
             <ul class="listaFantasma"></ul>
             <input type="submit" class="criarConta" value="Criar conta!">
@@ -36,7 +36,7 @@
     <footer>
 
     </footer>
-    <script src="js/controllers/cadastro.js" type="module"></script>
-    <script src="js/controllers/contas.js" type="module"></script>
+    <script src="../controller/cadastro.js" type="module"></script>
+    <script src="../controller/contas.js" type="module"></script>
 </body>
 </html>
