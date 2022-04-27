@@ -1,0 +1,66 @@
+{
+  "usuarios": [
+    {
+      "nome": "rikin",
+      "senha": "12345",
+      "id": "usuario-padrao",
+      "personagens": [
+        {
+          "nome": "Astora",
+          "classe": "Guerreiro",
+          "raca": "Anão"
+        },
+        {
+          "nome": "Shintou",
+          "classe": "Mago",
+          "raca": "Elfo"
+        }
+      ]
+    },
+    {
+      "nome": "ler0ler0",
+      "senha": "12345",
+      "id": "usuario-padrao",
+      "personagens": [
+        {
+          "nome": "Milena",
+          "classe": "Guerreiro",
+          "raca": "Humano"
+        },
+        {
+          "nome": "Paltio",
+          "classe": "Feiticeiro",
+          "raca": "Tiefling"
+        }
+      ]
+    },
+    {
+      "nome": "mikyx",
+      "senha": "12345",
+      "id": "usuario-admin",
+      "personagens": [
+        {
+          "nome": "Simba",
+          "classe": "Ladino",
+          "raca": "Elfo"
+        }
+      ]
+    },
+    {
+      "{\"senha\":\"testesenha\",\"id\":\"usuario-padrao\",\"personagens\":[]}": "",
+      "id": "egFEOX_"
+    },
+    {
+      "{\"senha\":\"testesenha\",\"id\":\"usuario-padrao\",\"personagens\":[]}": "",
+      "id": "ITjT_f0"
+    },
+    {
+      "{\"senha\":\"testesenha\",\"id\":\"usuario-padrao\",\"personagens\":[]}": "",
+      "id": "7rwp7-8"
+    },
+    {
+      "{\"senha\":\"testesenha\",\"id\":\"usuario-padrao\",\"personagens\":[]}": "",
+      "id": "xGO1tkr"
+    }
+  ]
+}
