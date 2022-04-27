@@ -30,7 +30,7 @@ botao.addEventListener('click', function(event){
         console.log(contas)
         novaMensagem('Conta criada com sucesso!')
         setTimeout(() => {
-            window.location.href = 'index.html'
+            window.location.href = 'login.html'
         },2000)
     }else{
         escritorDeErros(arrayDeErros)

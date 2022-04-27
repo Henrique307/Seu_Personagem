@@ -2,9 +2,9 @@
   "name": "seupersonagem",
   "version": "1.0.0",
   "description": "",
-  "main": "./js/adicionaConta.js",
+  "main": "./config/customExpress.js",
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "nodemon ./config/customExpress.js"
   },
   "author": "Rikin",
   "license": "ISC",
